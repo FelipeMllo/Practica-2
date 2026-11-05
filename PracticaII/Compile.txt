@@ -1,0 +1,8 @@
+Compilar en terminal:
+simple: g++ -std=c++11 -o regression.exe Simplemain.cpp RegressionModel.cpp SimpleLinearRegression.cpp CSVReader.cpp
+Multiple:g++ -std=c++11 -o multiple.exe multiplemain.cpp RegressionModel.cpp MultipleLinearRegression.cpp CSVReader.cpp
+
+
+Ejecutar:
+simple: regression.exe Ice_cream_selling_data.csv
+Multiple:multiple.exe student_exam_scores.csv
